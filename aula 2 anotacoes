@@ -3,9 +3,16 @@
 ## 💡 O que aprendi
 - baixar o vs code pra linux
 - baixar xampp pra linux versao 8.2.12
-- 
+- depois de baixar xamp clicar lado direito mouse propriedades- executavel como programa
+-depois abrir cmd(terminal) digitar: sudo .xampp-linux-x648.2.12-0-installer.run(enter)
+digitar senha
+cd (tab) dowloads
 ## 🔧 Tecnologias
-- baixar o vs code pra linux
+- baixar o vs code pra linux(extensoes -php intelepense-vs code-icons
+-format html in php
+-php awesome sniper)
+-file-auto save- settings word wrapp(on)
+
 - xampp(apache-mysql-php
 
 ## 🧪 Exercícios
