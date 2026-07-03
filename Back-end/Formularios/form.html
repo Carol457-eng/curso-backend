@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        div {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- <form action="processar.php" method="GET" target="_blank">   
+    <label for="nome_usuario">Nome completo:</label>
+        <input type="text" name="nome" id="nome_usuario">
+        <button type="submit">Enviar</button>
+
+    </form> -->
+
+    <!-- <form action="processar.php" method="post" target="_blank">   
+    <label for="nome_usuario">Nome completo:</label>
+        <input type="text" name="nome" id="nome_usuario">
+        <button type="submit">Enviar</button>
+
+    </form> -->
+    <!-- 
+    <form action="processar.php" method="post" >    
+    <input type="checkbox" name="conteudo" id="" value="Esporte">Esporte
+    <input type="checkbox" name="conteudo[]" id="" value="Musica">Musica
+    <input type="checkbox" name="conteudo" id="" value="Tecnologia">Tecnologia
+        <button type="submit">Enviar</button
+            >
+</form> -->
+
+
+    <!--    Crie um formulario que receba as seguintes informaçoes: nome,data de nascimento,sexo,escolaridade. Mostre estes dados em uma tabela em outra aba do navegador-->
+
+
+
+    <form action="processar.php" method="post" target="_blank">
+        <div>
+            <input type="text" name="nome" placeholder="Digite seu nome">
+        </div>
+
+        <div>
+            <input type="date" name="data_nascimento" >
+            </div>
+
+        <div><input type="radio" name="sexo" value="Masculino">Masculino
+        <input type="radio" name="sexo" value="Feminino">Feminino
+        </div>
+
+        <div>
+
+        <select name="escolaridade">
+            <option value="fundamental">Fundamental</option>
+            <option value="medio">Médio</option>
+            <option value="superior">Superior</option>
+        </select>
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+
+
+</body>
+
+</html>
