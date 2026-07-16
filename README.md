@@ -6,8 +6,9 @@ Tecnologias: Vs code / Xampp / PHP / MySQL
 
 Quando terminar uma aula ou exercício, basta fazer:
 
+git status
 git add .
-git commit -m "Descrição do que você fez"
+git commit -m "Descreva o que você fez"
 git push
 
 E tudo irá para o GitHub.
